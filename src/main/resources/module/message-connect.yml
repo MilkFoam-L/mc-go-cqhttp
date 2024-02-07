@@ -1,0 +1,26 @@
+# 消息互通
+# 是否启动此模块
+enable: false
+#启动监听的群号
+groups:
+  - "852244501"
+# 游戏内发送消息在QQ群显示的格式
+# 游戏内发送支持papi变量
+# {player}是发送的玩家名字
+mc-to-qq:
+  key-word:
+    # 是否开启关键词 (关闭则什么都转发)
+    enable: true
+    # 关键词(整个消息包含即可转发)
+    text: "转发:"
+  text: "{player} : {message}"
+# QQ群发送消息在游戏内显示的格式
+# {sender_id}是发送QQ号
+# {sender} 是发送QQ的名字
+qq-to-mc:
+  key-word:
+    # 是否开启关键词 (关闭则什么都转发)
+    enable: true
+    # 关键词(整个消息包含即可转发)
+    text: "转发:"
+  text: "&7[QQ群&7]&7[&b{sender}&7] : &f{message}"

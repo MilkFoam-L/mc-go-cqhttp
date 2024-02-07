@@ -1,0 +1,14 @@
+SQL:
+  #为false的时候本地SQLITE储存
+  #为true的时候数据库MYSQL储存
+  enable: false
+  #数据库地址
+  host: localhost
+  #数据库端口
+  port: 3306
+  #数据库用户名
+  user: root
+  #数据库密码
+  password: root
+  #数据库名
+  database: root

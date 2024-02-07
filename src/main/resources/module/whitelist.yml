@@ -1,0 +1,21 @@
+# 白名单模块
+# 是否启动此模块
+enable: false
+# 不允许进入
+cancelJoin:
+  # 是否开启
+  enable: false
+  # 进入服务器后多少秒内没有绑定则提出服务器
+  kickTime: 30
+# 不允许移动
+cancelMove: false
+# 不允许讲话
+# 内置白名单文字 [确认绑定]
+cancelChat: false
+# 不允许发送指令
+# 内置默认白名单指令 [l,login,reg,register]
+cancelCommand: false
+# 被禁止操作后发送的消息
+# 提供占位符 {player}
+messagesSentAfterBan: "&7[&6系统&7] &c{player}你未绑定白名单!"
+

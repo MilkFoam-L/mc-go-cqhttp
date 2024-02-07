@@ -1,0 +1,19 @@
+# 绑定模块
+# 是否启动此模块
+enable: false
+#群聊绑定模块
+groups:
+  - "852244501"
+# 玩家在群聊发送的绑定关键词
+# 注意：最后需要输入一个空格
+key: "#绑定账号 "
+# 绑定过期的时间 单位为秒
+expiration-time: 30
+# 绑定的QQ号需要超过多少等级才能进行绑定
+lowest-level: 1
+# 绑定后的动作
+actions:
+  - 'cmd: say 普通玩家执行'
+  - 'op: say op执行'
+  - 'console: say 控制台执行'
+  - 'kether: subtitle "Hello Kether!" by 10 20 10'

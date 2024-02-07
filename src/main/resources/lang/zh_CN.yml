@@ -1,0 +1,39 @@
+# 发送至QQ的消息
+QQ-notFindPlayer: "你绑定的玩家不在线或者不存在"
+QQ-sendMessageToMinecraft: "已经发送消息至此账号，请查看游戏内消息"
+QQ-Success: "绑定成功!"
+QQ-TimeOut: "绑定超时,请重新申请绑定!"
+QQ-isBind: "你已经绑定,请勿重复绑定"
+QQ-isInBind: "此QQ账号正在绑定中,请取消之前遗留的绑定等待!"
+QQ-isInBindButLeave: "检测到你已退出游戏! 绑定自动取消"
+QQ-levelIsNotStandard: "此QQ等级不符合服务器设置的最低等级!请勿使用QQ小号绑定!"
+QQ-keyWordNotBnd: "你未进行绑定，不能使用此功能!"
+
+# 发送至游戏的消息
+Minecraft-Bind: "&7QQ&a{0}&7申请与此账号&a{1}&7绑定\n&c30秒&7内输入&a确认绑定&7并按回车即可绑定!"
+Minecraft-BindKey: "确认绑定"
+Minecraft-Success: "&7绑定成功!"
+Minecraft-TimeOut: "&7绑定超时,请重新申请绑定!"
+Minecraft-isBind: "&7你已经绑定,请勿重复绑定"
+Minecraft-levelIsNotStandard: "此QQ等级不符合服务器设置的最低等级!请勿使用QQ小号绑定!"
+
+# 重载消息
+reload-config: '&7[&3!&7] &7配置文件重载成功...'
+reload-bot: '&7[&3!&7] &7机器人开始重新连接...'
+reload-rcon: '&7[&3!&7] &7RCON开始重新连接...'
+
+
+
+# 更新消息
+Plugin-Updater-Latest: '&7[&3!&7] &7你正在运行最新版的 mc-go-cqhttp.'
+Plugin-Updater-Dev: '&7[&3!&7] &7你正在运行开发版本的 mc-go-cqhttp, 请及时反馈漏洞!'
+Plugin-Updater-Header:
+  - ''
+  - '&3--------------------------------------------------'
+  - '&7▪ &3mc-go-cqhttp &a更新通知 &7{0} &7➦ &7{1}'
+  - ''
+  - '&7▪ &e内容: '
+Plugin-Updater-Footer:
+  - ''
+  - '&7▪ &2前往 Github 下载: &a&nhttps://github.com/MilkFoam-L/mc-go-cqhttp/releases'
+  - '&3--------------------------------------------------'

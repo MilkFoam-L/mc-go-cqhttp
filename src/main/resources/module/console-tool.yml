@@ -1,0 +1,12 @@
+# 控制台工具
+
+# 此模块需要开启RCON才能正常启用
+# 详细请看 settings.yml
+
+# 是否启动此模块
+enable: false
+# 检测的前缀
+keyword: "cmd:"
+# 哪些管理员可以触发返回
+admins:
+  - "2479640157"

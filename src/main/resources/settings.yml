@@ -1,0 +1,35 @@
+# 文件版本号 请勿修改
+version: "2.0"
+
+# DuBug模式开关
+debug: false
+
+# 检查自动更新
+check-update: false
+
+# 机器人断开后是否自动重连
+auto-reconnect: true
+
+# RCON配置
+# server.properties内设置的RCON地址+端口
+# enable-rcon=true
+# rcon.port=25575
+# rcon.password=xxxxxxxx
+# broadcast-rcon-to-ops=true
+# 如果你需要使用到 RCON 功能，请将 enable 改为 true
+# 例如 console-tool message-keyword 这两个模块就必须开启 RCON 功能
+rcon:
+  enable: true
+  host: 127.0.0.1
+  port: 25575
+  password: xxxxxxxx
+
+# go-cqhttp的config内设置的WebSocket地址+端口
+web-socket: "ws://127.0.0.1:8080"
+# websocket的连接密钥
+authToken:
+  enable: false
+  value: "这里填入你的公网密钥"
+
+
+

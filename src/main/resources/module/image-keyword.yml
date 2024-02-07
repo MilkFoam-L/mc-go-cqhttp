@@ -1,0 +1,11 @@
+# 关键词回复图片
+# 是否启动此模块
+enable: false
+# 启动监听的群号
+groups:
+  - "852244501"
+keys:
+  # 关键词
+  "百度":
+    # 网址
+    url: "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
